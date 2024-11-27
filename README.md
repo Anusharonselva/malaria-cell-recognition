@@ -10,8 +10,11 @@ The problem at hand is the automatic classification of red blood cell images int
 Traditional methods of malaria diagnosis involve manual inspection of blood smears by trained professionals, which can be time-consuming and error-prone. Automating this process using deep learning can significantly speed up diagnosis, reduce the workload on healthcare professionals, and improve the accuracy of detection.
 
 Our dataset comprises 27,558 cell images, evenly split between parasitized and uninfected cells. These images have been meticulously collected and annotated by medical experts, making them a reliable source for training and testing our deep neural network.
+## Dataset:
+![Screenshot 2024-11-27 180017](https://github.com/user-attachments/assets/ef7cfd89-20f9-451e-bc65-0498d4f4065d)
+
 ## Neural Network Model
-![1](https://github.com/user-attachments/assets/70f59d6b-3408-4dbb-ae0e-452e510e54b8)
+![Screenshot 2024-11-27 180110](https://github.com/user-attachments/assets/b0d6cf57-adc5-4c1f-8bab-6f2f73235215)
 
 
 ## DESIGN STEPS
@@ -189,18 +192,21 @@ plt.show()
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![Screenshot 2024-11-27 180139](https://github.com/user-attachments/assets/9b12f285-00d9-4573-b24b-8f82b827ada8)
+
 
 ### Classification Report
 
-Include Classification Report here
+![Screenshot 2024-11-27 180210](https://github.com/user-attachments/assets/f446e879-01d4-426a-8d92-8182ef9b5f73)
 
 ### Confusion Matrix
 
-Include confusion matrix here
+![Screenshot 2024-11-27 180232](https://github.com/user-attachments/assets/11e65575-96a6-406d-8bfc-0afcbf54badb)
 
 ### New Sample Data Prediction
+![Screenshot 2024-11-27 180317](https://github.com/user-attachments/assets/a2acc06a-5635-4920-8dc7-b4eec3477e97)
 
-Include your sample cell image input and output of your model.
 
 ## RESULT
+The model's performance is evaluated through training and testing, and it shows potential for assisting healthcare professionals in diagnosing malaria more efficiently and accurately.
+
